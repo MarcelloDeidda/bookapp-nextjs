@@ -1,0 +1,17 @@
+.link-button {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 1.5rem;
+    transition: 200ms;
+    text-decoration: none;
+    color: #3a3a3a;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+.link-button:hover {
+    opacity: 0.7;
+    background-color: #f0f0f0;
+    border-color: #3a3a3a;
+}

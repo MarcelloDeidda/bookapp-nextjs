@@ -1,0 +1,19 @@
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fafaf7;
+}
+
+.body main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    top: 3.8rem;
+    color: #3a3a3a;
+}

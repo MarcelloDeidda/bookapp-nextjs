@@ -1,0 +1,10 @@
+.book-show {
+    display: flex;
+    width: 75%;
+    padding: 4rem;
+    justify-content: space-between;
+}
+
+.book-show img {
+    width: 35%;
+}

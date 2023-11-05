@@ -1,0 +1,9 @@
+.book-list {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: space-around;
+    margin: 3rem 0;
+}

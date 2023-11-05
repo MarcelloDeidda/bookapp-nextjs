@@ -1,0 +1,44 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 2rem 0;
+}
+
+.form-input {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input input,
+.form-input textarea,
+.form button {
+    border: 0.5px solid #2a2a2a;
+    border-radius: 0.3rem;
+    margin-top: 0.2rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.form-input textarea {
+    resize: none;
+}
+
+.form button {
+    margin-top: 1rem;
+    background-color: #21d456;
+    transition: 300ms;
+}
+
+.form button:hover {
+    margin-top: 1rem;
+    background-color: #b1fcc7;
+    cursor: pointer;
+}
+
+.form button:disabled {
+    margin-top: 1rem;
+    background-color: #ddd;
+    cursor: default;
+}
